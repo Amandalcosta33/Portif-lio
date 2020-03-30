@@ -1,0 +1,141 @@
+
+body{
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5f5e59;
+    background: url('../imagens/bg_body.jpg') left top repeat;
+}
+
+
+/*CONFIGURAÇÃO DO TOPO - INÍCIO*/
+
+header{
+    margin-bottom: 25px;
+    background: url('../imagens/bg_header.jpg');
+}
+
+#topo-twitter{
+    width: 700px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 20px 200px 0 0;
+}
+
+
+#topo-titulo{
+    width: 900px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.tweet-texto{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 0 -1px 0 #000;
+}
+
+.tweet-data{
+    color: #e3baca;
+    font-size: 12px;
+    padding-left: 6px;
+}
+
+
+header h1{
+    width: 454px;
+    height: 53px;
+    text-indent: -9000px;
+    margin: 0 auto;
+    background: url('../imagens/img_ferris.png');
+}
+
+/*CONFIGURAÇÃO DO TOPO - FIM*/
+
+
+/*CONFIGURAÇÃO DO CONTEÚDO - INÍCIO*/
+
+#conteudo{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#conteudo-descricao{
+    width: 400px;
+    text-shadow: 0 1px 0 #fff;
+    padding-bottom: 40px;
+}
+
+.conteudo-duas-colunas{
+    column-count: 2;
+    column-gap: 30px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.conteudo-duas-colunas p{
+    line-height: 18px;
+    font-size: 14px;
+}
+
+
+
+
+#conteudo-descricao h3{
+    margin-bottom: 15px;
+    color: #949691;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#icones-sociais{
+    border-top: 2px dashed #aaa19f;
+    width: 185px;
+    height: 55px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+#icones-sociais li{
+    display: inline-block;
+}
+
+#icones-sociais li a{
+    width: 59px;
+    height: 55px;
+    display: block;
+    float: left;
+    
+
+}
+
+.bt-twitter{
+    background: url('../imagens/social_icons.png') 2px top no-repeat;
+}
+
+.bt-facebook{
+    background: url('../imagens/social_icons.png') -59px top no-repeat;
+}
+
+.bt-linkedin{
+    background: url('../imagens/social_icons.png') -121px top no-repeat;
+}
+
+/*CONFIGURAÇÃO DO CONTEÚDO - FIM*/
+
+
+/*CONFIGURAÇÃO DO RODAPÉ - INÍCIO*/
+
+footer p{
+    font-size: 11px;
+    line-height: 18px;
+    text-shadow: 0 1px 0 #fff;
+    margin: 0 auto;
+    width: 900px;
+    background: url('../imagens/logo.png') right center no-repeat;
+}
+
+/*CONFIGURAÇÃO DO RODAPÉ - FIM*/
