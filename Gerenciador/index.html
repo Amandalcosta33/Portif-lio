@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de tarefas</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>gerenciador de tarefas</h1>
+    <div class="adicionar-tarefas">
+        <input id="tarefa" class="campo" placeholder="tarefa">
+        <input type="date" id="data" class="campo">
+        <button class="botao" id="botao-adicionar">adicionar</button>
+        <ul id="lista-erros"></ul>
+    </div>
+
+    <table id="tarefas-realizar">
+        <thead>
+            <tr>
+                <th>Tarefa</th>
+                <th>Data de finalização</th>
+                <th> finalizado? &nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="js.js"></script>
+    
+</body>
+</html>

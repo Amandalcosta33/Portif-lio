@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 15px;
+}
+
+.adicionar-tarefas{
+    background-color:  rgb(33, 69, 146);
+    height: 108px;
+    text-align: center;
+}
+
+#lista-erros{
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+td{
+    background-color:  rgb(33, 69, 146);
+    color: white;
+}
+
+.botao{
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(12, 51, 136);
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.botao:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: rgb(12, 51, 136);
+}
+
+.campo{
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 0;
+    color: rgb(12, 51, 136);
+    padding: 10px 5px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(12, 51, 136);
+    opacity: 1; /* Firefox */
+    text-transform: uppercase;
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color:rgb(12, 51, 136);
+text-transform: uppercase;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: rgb(12, 51, 136);
+text-transform: uppercase;
+}
+
+select.campo{
+    width: 200px;
+}
+
+table{
+    border: 1px solid;
+    width: 80%;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+th,td{
+    padding: 5px;
+    border: 1px solid;
+}
+
+th{
+    text-transform: uppercase;
+}
+
+
+.checkout{
+    width: 18px;
+    cursor: pointer;
+}
