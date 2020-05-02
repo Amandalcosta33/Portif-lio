@@ -1,0 +1,252 @@
+body{
+    background-color: #f3eeea;
+}
+
+header{
+    background-color: #a0887e;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.roda-pe{
+    background-color: #a0887e;
+    width: 100%;
+    color: #4c4c4c;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.roda-pe img{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.roda-pe img:hover{
+    opacity: 1;
+}
+
+footer p{
+    font-size: 20px;
+}
+nav{
+    width: 325pxpx;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 15px 30px;
+    text-align: right;
+   
+}
+
+.carrinho{
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+.carrinho:hover{
+    opacity: 1;
+}
+
+.menu-navegacao li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;  
+}
+
+.menu-navegacao a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4c4c4c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-navegacao a:hover{
+    color: black;
+}
+
+
+.slide-individual {
+    display: none;
+}
+
+.imagem-slide{
+     vertical-align: middle;
+     width: 100%;
+     height: 400px;
+ }
+
+ .slide {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+ }
+            
+.text {
+    color: #4c4c4c;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+            
+.numbertext {
+    color: #4c4c4c;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+            
+            
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+            
+.active {
+    background-color: #717171;
+}
+            
+            
+ /* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+.competencias{
+    margin-top: 70px;
+    /* column-count: 6; */
+    text-align: center;
+}
+
+.competencias img{
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    opacity: 0.7;
+
+}
+
+.competencias li{
+    display: inline-block;
+    width: 22%;
+    height: 250px;
+    vertical-align: top;
+    margin: 0 10px 0 10px;
+   
+}
+
+
+.titulo-competencias{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #615e5e;
+}
+
+.titulo-competencias h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #4b4747;
+}
+
+.queridos{
+    position: relative;
+    margin: auto;
+    width: 95%;
+    background-color: #c4afa8;
+    margin-top: 102px;
+}
+.queridos h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4b4747;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.produtos-preferios li{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.foto-preferidos{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 35px;
+}
+
+.produto-preferido{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #615e5e;
+    margin-left: 50px;
+    width: 460px;
+    text-align: center;
+}
+
+.produto-preferido p{
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.nome-produto-preferido{
+    text-decoration: none;
+    font-size: 20px;
+    color: #4b4747;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.produto-preferido a:hover{
+    text-decoration: underline;
+}
+
+.comentario-preferidos{
+    text-decoration: none;
+    font-size: 13px;
+    color: #4b4747;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.botao{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #f3eeea;
+    background-color: #4b4747;
+    border: none;
+}
+
+.botao:hover{
+    background-color: #a0887e;
+    cursor: pointer;
+}
