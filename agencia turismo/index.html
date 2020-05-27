@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de turismo</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="libi/materialize/css/materialize.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="imagens/logo.png" width="50" class="brand-logo">
+            <a href="#" data-target="menu-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#destinos">DESTINOS</a></li>
+                <li><a href="#pacotes">PACOTES</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+
+        <ul class="sidenav" id="menu-mobile">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="imagens/fundo.jpg">
+                    </div>
+                    <img src="imagens/pessoa.jpg" class="circle">
+                    <span class="white-text name">Tony Stark</span>
+                    <span class="white-text email">tonystark@agenciaturismo.com.br</span>
+                    <span class="white-text"><i class=" tiny material-icons">phone</i>19 99999-9999 </span>
+                </div>
+            </li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#destinos">DESTINOS</a></li>
+            <li><a href="#pacotes">PACOTES</a></li>
+            <li><a href="#contato">CONTATO</a></li>
+        </ul>
+    </header>
+
+    <div id="banner" class="center-align">
+        <div class="carousel carousel-slider">
+            <a href="#" class="carousel-item">
+                <img src="imagens/machupichu.jpg" class="responsive-img">
+            </a>
+            <a href="#" class="carousel-item">
+                <img src="imagens/chile.jpg" class="responsive-img">
+            </a>
+            <a href="#" class="carousel-item">
+                <img src="imagens/cartagena.jpg" class="responsive-img">
+            </a>
+            <a href="#" class="carousel-item">
+                <img src="imagens/chapada.jpg" class="responsive-img">
+            </a>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <h1 class="red-text">Destinos</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. </p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. </p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. </p>
+
+        <div class="row">
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imagens/chapada.jpg" class="responsive-img"> <span class="card-title">Chapada
+                            Diamantina</span>
+                    </div>
+                    <div class="class-content">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Conheça mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imagens/chile.jpg" class="responsive-img"> <span class="card-title">Chile</span>
+                    </div>
+                    <div class="class-content">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Conheça mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imagens/machupichu.jpg" class="responsive-img"> <span
+                            class="card-title">Machupicho</span>
+                    </div>
+                    <div class="class-content">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Conheça mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="center-align">
+                <a href="#mais-informacoes" class="waves-effect waves-light btn-large modal-trigger">Informações</a>
+            </div>
+            <div id="mais-informacoes" class="modal">
+                <div class="modal-content">
+                    <h4>PACOTES</h4>
+                    <p>Nossos pacotes incluem passagem, hospedagem e translado.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effec waves-green btn-flat">OK</a>
+                </div>
+            </div>
+
+            <h3>Contato</h3>
+            <form>
+                <input id="nome">
+                <label for="nome">Nome Completo</label>
+                <input type="email" id="email">
+                <label for="email">E-mail</label>
+                <textarea placeholder="Mensagem"></textarea>
+                    <button class="btn"><i class="material-icons left">directions_run</i>Enviar</button>
+            </form>
+        </div>
+        <footer class="red lighten-1">
+            <div class="row">
+                <div class="col">
+                    <p class="white-text">Agência de turismo.</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script src="libi/jquery-3.5.0.js"></script>
+        <script src="libi/materialize/js/materialize.js"></script>
+        <script src="libi/funcoes.js"></script>
+</body>
+
+</html>

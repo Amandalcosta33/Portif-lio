@@ -250,3 +250,47 @@ nav{
     background-color: #a0887e;
     cursor: pointer;
 }
+
+.titulos{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4b4747;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35px;
+    font-weight: bolder;
+}
+
+.imagem-quem-somos{
+    display: inline-block;
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.imagem-quem-somos img{
+    width: 580px;
+}
+
+.texto-quemsomos{
+    width: 40%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.texto-quemsomos h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4b4747;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.texto-quemsomos p{
+    text-align: justify;
+    font-size: 19px;
+    color: #615e5e;
+    column-count: 2;
+}
